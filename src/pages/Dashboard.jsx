@@ -51,7 +51,7 @@ const Dashboard = () => {
   const deleteResume = async (id) => {
     const result = await Swal.fire({
       title: 'Are you sure?',
-      text: "You won't be able to revert this!",
+      text: "sure for delete resume!",
       icon: 'warning',
       showCancelButton: true,
       confirmButtonColor: '#3b82f6',
